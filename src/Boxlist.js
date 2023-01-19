@@ -13,11 +13,13 @@ function deleteBox(evt) {
   setBox();
 }
 
+const boxComponents =
+
 boxes =
 
   return (
     <NewBoxForm/>
-    { boxes.map(box => <Box height={ height } width={ width } backgroundColor={ backgroundColor } deleteBox={ deleteBox }/>) }
+    boxes.map(box => <Box height={ height } width={ width } backgroundColor={ backgroundColor } deleteBox={ deleteBox }/>
   )
 }
 
